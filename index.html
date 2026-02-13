@@ -180,16 +180,26 @@ button {
 
 <!-- Celebration -->
 <div class="container celebration" id="celebration">
-  <h1 class="big">CONGRATULATIONS!!! 🎉💖</h1>
-  <div class="name">❤️Doudou❤️</div>
-  <div class="emojis">🎈🍾🥂💐🧸❤️</div>
+  <h1 class="big">My Forever Valentine💖</h1>
+  
+  <div class="emojis">🍫🍯💐🧸❤️</div>
   <p style="color:white; font-size:1.15rem;">
-    You just made my heart explode (in the best way).<br><br>
-    Thank you for choosing me, today and always.<br>
-    I love you endlessly ❤️
+    Mon amour, depuis le jour où tu es entrée dans 
+    ma vie, tout est devenu plus lumineux. You push 
+    me to be a better man every single day. Your 
+    smile is my favorite sight and your heart is 
+    my favorite place to be. Ou fe ti kem bat bat - 
+    Chant de KDilak. Je veux que tu saches 
+    à quel point je suis reconnaissant de t’avoir 
+    à mes côtés. T’aimer est la chose la plus 
+    naturelle qui me soit arrivée. You’re not 
+    just my Valentine, you’re my everything.
+    Thank you for choosing me, today and always. 
   </p>
-  <h2 style="color:white;">🧸I love you bb❤️</h2>
-  <p style="color:white;">– Yours, forever 😘</p>
+  <h1 style="color:white;">🧸I love you Doudou❤️
+    <br>
+    -LJSJ
+  </h1>
 </div>
 
 <!-- Modal -->
@@ -198,7 +208,7 @@ button {
     <h2>Ou sure? 🥺</h2>
     <p>Eskew we…</p>
     
-    <button id="confirmNo">Yes, I’m sure 🙃</button>
+    <button id="confirmNo">Oui, mwen sure 🙃</button>
   </div>
 </div>
 
@@ -216,10 +226,10 @@ let noScale = 1;
 let noClicks = 0;
 
 const yesTexts = [
-  "Come on 😏",
+  "Gade tifi 😏",
   "Ou we de koze 💖",
   "Farlone oui😘",
-  "Gade tifi 🥰",
+  "Grimas 🥰",
   "YES 💘"
 ];
 
@@ -255,7 +265,7 @@ yesBtn.addEventListener("click", () => {
   for (let i = 0; i < 100; i++) {
     const confetti = document.createElement("div");
     confetti.classList.add("confetti");
-    confetti.innerHTML = ["🎉","💖","🎈","✨","💥"][Math.floor(Math.random()*5)];
+    confetti.innerHTML = ["🎉","💖","🎈","🌹","🍫","🌺"][Math.floor(Math.random()*5)];
     confetti.style.left = Math.random() * 100 + "vw";
     confetti.style.animationDuration = Math.random() * 2 + 2 + "s";
     document.body.appendChild(confetti);
